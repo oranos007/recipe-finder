@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+section {
+    padding: 50px 20px;
+}
+section h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#hero{
+    height: 50vh;
+    background-image: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Ds');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+#hero form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: white;
+    border-radius: 30px;
+}
+#hero button{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+#hero input{
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 30px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+   color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#logo h2{
+    font-size: 20px;
+}
+footer p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+@media (max-width:768px) {
+    #logo img{
+        display: none;
+    }
+}
